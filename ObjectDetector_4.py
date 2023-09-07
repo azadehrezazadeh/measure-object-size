@@ -108,7 +108,7 @@ def detect_aruco():
 
 # ---------  main ----------------------------
 with open('output5/dimension.txt', 'w') as f:
-    for xi in range(1, 23):
+    for xi in range(1, 29):
         name = str(xi) + ".jpg"
         f.write('\n --------------------------- \n' + name + '\n --------------------------- \n')
 
